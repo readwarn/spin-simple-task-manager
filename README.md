@@ -1,5 +1,7 @@
 # Nuxt Project
 
+[Preview here](https://spin-simple-task-manager.vercel.app/)
+
 This is a Nuxt.js project.
 
 ## Prerequisites

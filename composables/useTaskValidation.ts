@@ -5,7 +5,7 @@ export const useTaskValidation = () => {
   const taskShema = z.object({
     title: z
       .string()
-      .min(8, { message: "Task title should be at least 5 characters long" }),
+      .min(5, { message: "Task title should be at least 5 characters long" }),
     description: z.string().min(15, {
       message: "Task description should be at least 15 characters long",
     }),
