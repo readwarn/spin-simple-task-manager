@@ -9,7 +9,8 @@
 
 <script lang="ts" setup>
 import { ConfigProvider } from "radix-vue";
-const useIdFunction = () => useId();
+const useIdFunction = () =>
+  useId() || `initial-app-id-${new Date().toDateString()}`;
 import Toast from "./components/shared/toast.vue";
 const { showToast, message, type } = provideToast();
 </script>
